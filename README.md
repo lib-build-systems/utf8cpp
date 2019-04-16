@@ -13,8 +13,8 @@ Each branch in a repository defines a specific build system for a specific versi
 ### Want to help?
 Yes please! I already have my hands full on creating a consistent cross-platform CMake experience for the libraries already included. If you have improvements or ready-and-tested config files for other build systems, don't hesitate to create pull requests per build system, per version.
 
-# UTF-cpp
-Added CMakeLists.txt file for UTF-cpp 'develop' version.
+# UTF-8 cpp
+Added CMakeLists.txt file for the utf8cpp library's 'develop' version.
 * Default installation paths:
   * <CMAKE_INSTALL_PREFIX>/include/utfcpp (.h, .hpp)
   * <CMAKE_INSTALL_PREFIX>/share/man (.1, .3, .5)
