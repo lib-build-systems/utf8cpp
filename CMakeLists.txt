@@ -23,7 +23,7 @@ install(DIRECTORY source/
 install(TARGETS utf8cpp
         EXPORT utf8cpp-targets)
 install(EXPORT utf8cpp-targets
-        DESTINATION cmake)
+        DESTINATION lib/cmake/utf8cpp)
 
 if (UTF8_SAMPLES)
 	add_executable(docsample ${PROJECT_SOURCE_DIR}/samples/docsample.cpp)
