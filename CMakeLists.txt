@@ -23,6 +23,7 @@ install(DIRECTORY source/
 install(TARGETS utf8cpp
         EXPORT utf8cpp-targets)
 install(EXPORT utf8cpp-targets
+        NAMESPACE utf8cpp::
         DESTINATION lib/cmake/utf8cpp)
 
 if (UTF8_SAMPLES)
