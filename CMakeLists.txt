@@ -19,12 +19,12 @@ else ()
 endif ()
 
 install(DIRECTORY source/
-        DESTINATION include/utf8cpp)
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/utf8cpp)
 install(TARGETS utf8cpp
         EXPORT utf8cpp-targets)
 install(EXPORT utf8cpp-targets
         NAMESPACE utf8cpp::
-        DESTINATION lib/cmake/utf8cpp)
+        DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/utf8cpp)
 
 if (UTF8_SAMPLES)
 	add_executable(docsample ${PROJECT_SOURCE_DIR}/samples/docsample.cpp)
